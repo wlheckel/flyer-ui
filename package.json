@@ -1,0 +1,28 @@
+{
+  "name": "flyer-ui",
+  "version": "2.0.0",
+  "description": "一个WEB组件库,可以让前端开发者更专注于业务逻辑的堆砌.",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfzhengd/Flyer-UI.git"
+  },
+  "keywords": [
+    "UI",
+    "Vue",
+    "UI",
+    "Component",
+    "UI",
+    "Vue",
+    "Component"
+  ],
+  "author": "pfzhengd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfzhengd/Flyer-UI/issues"
+  },
+  "homepage": "https://github.com/pfzhengd/Flyer-UI#readme"
+}
