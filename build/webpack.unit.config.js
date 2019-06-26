@@ -1,4 +1,18 @@
 /**
  * 解决单元测试打包需求
- * 1. 安装karma jasmine-core
+ *
  */
+const path = require('path')
+
+module.exports = {
+  mode: 'development',
+  module: {
+    rules: [{
+      test: /\.js$/,
+      loader: 'istanbul-instrumenter-loader',
+      include: [
+        path.resolve('../src/util')
+      ]
+    }]
+  }
+}
