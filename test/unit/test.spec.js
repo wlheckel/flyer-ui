@@ -1,5 +1,5 @@
-const reverse = require('../../src/util/dom')
-
+// const reverse = require('../../src/util/dom')
+import reverse from '../../src/util/dom'
 describe('reverse', () => {
   it('reverse word', () => {
     expect(reverse('abc')).toEqual('cba')
