@@ -3,3 +3,5 @@ const util = {
     return 'cookie'
   }
 }
+
+module.exports = util
