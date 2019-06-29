@@ -12,13 +12,6 @@ module.exports = {
       loader:'babel-loader',
       include:[path.resolve('../src'),path.resolve('../test')],
       exclude:path.resolve(__dirname,'node_modules')
-    },{
-      test: /\.js$/,
-      loader: 'istanbul-instrumenter-loader',
-      options: { esModules: true },
-      include: [
-        path.resolve('../src/util')
-      ]
     }]
   }
 }
