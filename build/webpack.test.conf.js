@@ -7,11 +7,12 @@ const path = require('path')
 module.exports = {
   mode: 'development',
   module: {
-    rules: [{
-      test:/\.js$/,
-      loader:'babel-loader',
-      include:[path.resolve('../src'),path.resolve('../test')],
-      exclude:path.resolve(__dirname,'node_modules')
-    }]
+    rules: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: path.resolve(__dirname, 'node_modules')
+      }
+    ]
   }
 }

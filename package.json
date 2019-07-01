@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/pfzhengd/Flyer-UI#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-plugin-istanbul": "^5.1.4",
-    "babel-preset-env": "^1.7.0",
+    "babel-plugin-istanbul": "^4.1.1",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
     "chai": "^4.2.0",
     "cross-env": "^5.2.0",
     "karma": "^4.1.0",

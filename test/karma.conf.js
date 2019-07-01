@@ -7,12 +7,12 @@ module.exports = function (config) {
 
     frameworks: ['mocha','chai'],
     files: [
-      'index.js'
+      './index.js'
     ],
     exclude: [
     ],
     preprocessors: {
-      'index.js': ['webpack','sourcemap']
+      './index.js': ['webpack','sourcemap']
     },
     reporters: ['spec', 'coverage'],
     coverageReporter:{
