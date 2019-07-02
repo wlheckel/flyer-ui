@@ -7,17 +7,17 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   mode: 'development',
-  resolve:{
-    extensions:['.vue','.js','.json'],
-    alias:{
-      '@':path.resolve(__dirname,'..','src')
+  resolve: {
+    extensions: ['.vue', '.js', '.json'],
+    alias: {
+      '@': path.resolve(__dirname, '..', 'src')
     }
   },
   module: {
     rules: [
       {
-        test:/\.vue$/,
-        loader:'vue-loader'
+        test: /\.vue$/,
+        loader: 'vue-loader'
       },
       {
         test: /\.js$/,
@@ -26,7 +26,7 @@ module.exports = {
       }
     ]
   },
-  plugins:[
+  plugins: [
     new VueLoaderPlugin()
   ]
 }

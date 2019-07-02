@@ -4,7 +4,7 @@ describe('reverse', () => {
   it('reverse word', () => {
     expect(reverse('abc')).equal('cba')
   })
-  it('reverse 传的参数长度为1返回自身',()=>{
+  it('reverse 传的参数长度为1返回自身', () => {
     expect(reverse('a')).equal('a')
   })
 })
